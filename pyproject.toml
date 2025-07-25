@@ -1,0 +1,14 @@
+[project]
+name = "ocr-exploration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.30.0",
+    "mistralai>=1.9.3",
+    "google-generativeai>=0.3.0",
+    "PyMuPDF>=1.23.0",
+    "Pillow>=10.0.0",
+    "python-dotenv>=1.1.1",
+]
